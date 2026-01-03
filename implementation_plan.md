@@ -10,25 +10,28 @@
 - [x] Implement basic CRUD API endpoints.
 - [x] **Verification:** Test database connection and API health.
 
-### Step 2: MCP Server Integration [PENDING]
-- [ ] Design MCP server architecture.
-- [ ] Implement MCP tools/resources for VinylDB.
-- [ ] Connect MCP server to the main API/Database.
-- [ ] give MCP access to the database. 
-- [ ] give MCP access to the web to search for vinyls' details.
-- [ ] **Verification:** Test MCP tool calls.
+### Step 2: MCP Server Integration [COMPLETED]
+- [x] Design MCP server architecture.
+- [x] Implement MCP tools/resources for VinylDB.
+- [x] Connect MCP server to the main API/Database.
+- [x] give MCP access to the database.
+- [x] give MCP access to the web to search for vinyls' details.
+- [x] **Verification:** Test MCP tool calls.
 
-### Step 3: Analytics Engine [PENDING]
-- [ ] Set up Analytics service (potentially Spark or Pandas based on scale).
-- [ ] Create endpoints for data visualization metrics.
-- [ ] **Verification:** Verify data aggregation and reporting.
+### Step 3: Analytics Engine [IMPLEMENTED]
+- [x] Set up Analytics service (Spark).
+- [x] Implemented SparkAnalyticsEngine with PySpark.
+- [x] Downloaded PostgreSQL JDBC driver for Spark connectivity.
+- [x] Created endpoints for data visualization metrics.
+- [x] Containerized with Docker (Dockerfile & docker-compose.yml).
+- [ ] **Verification:** Run `docker compose up` and test endpoints (Pending Docker startup).
 
 ## Phase 2: Client Application
 
-### Step 4: Frontend Setup [PENDING]
-- [ ] Initialize Next.js project.
-- [ ] Configure Tailwind CSS and UI components.
-- [ ] Set up API client.
+### Step 4: Frontend Setup [COMPLETED]
+- [x] Initialize Next.js project.
+- [x] Configure Tailwind CSS and UI components.
+- [x] Set up API client.
 
 ### Step 5: Core Features [PENDING]
 - [ ] Implement Dashboard.

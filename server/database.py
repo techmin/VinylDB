@@ -30,7 +30,7 @@ if "sslmode=require" in DATABASE_URL:
 # Create Async Engine
 engine = create_async_engine(
     DATABASE_URL,
-    echo=True, # Log SQL for debugging (disable in production)
+    echo=False, # Log SQL for debugging (disable in production)
     connect_args=connect_args,
     pool_pre_ping=True,
     pool_recycle=300,

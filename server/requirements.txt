@@ -6,3 +6,8 @@ asyncpg
 python-dotenv
 pydantic-settings
 alembic
+mcp
+httpx
+duckduckgo-search
+pyspark==3.5.3
+py4j
